@@ -1,12 +1,12 @@
 variable "credentials" {
   description = "My Credentials"
-  default     = "<Path to your Service Account json file>"
+  default     = "./studidevops-bigpro-fakhri-a190afea7a47.json"
 }
 
 
 variable "project" {
   description = "Project"
-  default     = "<Your Project ID>"
+  default     = "studidevops-bigpro-fakhri"
 }
 
 variable "region" {
